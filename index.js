@@ -11,7 +11,7 @@ const port = process.env.PORT || 3000
 
 app.use(express.json())
 app.use(cors({
-  origin:["http://localhost:5173","https://findlostitem-1ef05.web.app","https://findlostitem-1ef05.firebaseapp.com"],
+  origin:["http://localhost:5173","https://findlostitem-1ef05.web.app","https://findlostitem-1ef05.firebaseapp.com","http://localhost:5174"],
   credentials:true
 }))
 
